@@ -5,12 +5,13 @@
 
 ##Doc
 
-$("#btn").scrolltotop(options);
+    $("#btn").scrolltotop(options);
 
-options = {
-    startshow:100,  
-    speed:20
-}
+    options = {
+        startshow:100,  
+        speed:20
+    }
+
 
 ###startshow
   滚动条滚动至哪个位置之后显示回顶按钮-$('#btn'),默认滚动100像素后出现
